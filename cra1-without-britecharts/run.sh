@@ -1,7 +1,7 @@
 #!/bin/bash
-set -e 
+set -e
 
-rm -rf node_modules
+rm -rf node_modules/
 
 # Used in docker
 # yarn config set cache-folder /usr/app/.yarn-cache
